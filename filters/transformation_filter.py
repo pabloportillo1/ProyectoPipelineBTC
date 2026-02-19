@@ -1,5 +1,3 @@
-from multiprocessing import process
-
 from filters.base_filter import BaseFilter
 
 class TransformationFilter(BaseFilter):

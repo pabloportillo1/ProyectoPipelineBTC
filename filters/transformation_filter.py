@@ -14,8 +14,8 @@ class TransformationFilter(BaseFilter):
 
         #Suponemos que el tipo de moneda ya ha sido validado a traves del pipeline y asignamos un valor a la tasa de cambio
         #dentro de la variable rate. 
-        rate = self.exchange_rates.get[transaction.currrency]
+        rate = self.exchange_rates.get(transaction.currency)
 
-        transaction.convertes_amount = transaction.btc_amount * rate
+        transaction.converted_amount = transaction.btc_amount * rate
 
         return transaction

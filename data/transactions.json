@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "user_id": "001",
+        "btc_amount": 2,
+        "currency": "EUR",
+        "converted_amount": 80000,
+        "comission": 1600.0,
+        "total_amount": 81600.0,
+        "status": "Created"
+    }
+]

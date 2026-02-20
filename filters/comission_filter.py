@@ -1,4 +1,4 @@
-from base_filter import BaseFilter
+from filters.base_filter import BaseFilter
 
 class ComissionFilter(BaseFilter):
 

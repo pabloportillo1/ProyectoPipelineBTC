@@ -16,6 +16,6 @@ class StorageFilter(BaseFilter):
         with open("data/transactions.json", "w") as file:
             json.dump(transactions, file, indent = 4)
 
-        transaction.status = "Registered"
+        transaction.status = "Registered and processed successfully."
 
         return transaction
